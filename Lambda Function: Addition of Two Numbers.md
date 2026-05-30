@@ -11,14 +11,12 @@ To write a Python program that defines a **lambda function** which takes two arg
 ## 🧾 Program
 
 ```
-i=int(input())
-j=int(input())
-z=int(input())
-f = lambda a, b,c: a+b+c
-print(f(i, j,z))
+add=lambda a,b: a+b
+print("Sum of given is",add(int(input("Enter any number")),int(input('Enter any number'))))
 ```
 ## Output
-<img width="778" height="590" alt="image" src="https://github.com/user-attachments/assets/09ed9887-39ba-4b23-b565-4ba950720aaf" />
+
+<img width="841" height="142" alt="image" src="https://github.com/user-attachments/assets/6292fe1e-2f99-42bb-a728-a9c7f39db462" />
 
 
 ## Result
